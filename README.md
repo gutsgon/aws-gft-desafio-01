@@ -220,59 +220,6 @@ Enquanto a equipe se preocupa apenas com os dados e a aplicação.
 
 ---
 
-# DynamoDB
-
-## Diferença entre RDS e DynamoDB
-
-O DynamoDB **não faz parte do RDS**.
-
-São serviços diferentes.
-
-### RDS
-
-Banco relacional (SQL).
-
-Exemplos:
-
-* PostgreSQL
-* MySQL
-
-Consulta típica:
-
-```sql
-SELECT *
-FROM clientes;
-```
-
----
-
-### DynamoDB
-
-Banco NoSQL totalmente gerenciado.
-
-Armazena dados em formato:
-
-* Chave e valor
-* Documentos
-
-Exemplo:
-
-```json
-{
-  "id": 1,
-  "nome": "Gustavo"
-}
-```
-
-### Casos de uso
-
-* Lambda
-* Microsserviços
-* Aplicações serverless
-* Sistemas de alta escala
-
----
-
 # Lambda
 
 O Lambda é um serviço *serverless* que executa código sob demanda.
